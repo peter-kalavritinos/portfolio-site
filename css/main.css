@@ -17,15 +17,7 @@
     line-height: 1.4;
   }
   
-  /*
-   * Remove text-shadow in selection highlight:
-   * https://twitter.com/miketaylr/status/12228805301
-   *
-   * Vendor-prefixed and regular ::selection selectors cannot be combined:
-   * https://stackoverflow.com/a/16982510/7133471
-   *
-   * Customize the background color to match your design.
-   */
+
   
   ::-moz-selection {
     background: #b3d4fc;
@@ -37,9 +29,7 @@
     text-shadow: none;
   }
   
-  /*
-   * A better looking default horizontal rule
-   */
+
   
   hr {
     display: block;
@@ -65,9 +55,7 @@
     vertical-align: middle;
   }
   
-  /*
-   * Remove default fieldset styles.
-   */
+ 
   
   fieldset {
     border: 0;
@@ -75,9 +63,7 @@
     padding: 0;
   }
   
-  /*
-   * Allow only vertical resizing of textareas.
-   */
+ 
   
   textarea {
     resize: vertical;
@@ -97,7 +83,7 @@
     font-family: 'Nunito Sans', sans-serif;
     color: #FFFFFF;
     background-color: white;
-    /* Sometimes the default background for a browser isn't exactly white. Adding a default allows more consistency between browsers. */
+    
   }
   
   ul,
@@ -222,8 +208,7 @@
     text-align: left;
   }
   
-  /* set the margins & paddings for each section - these are only a suggestion :) */
-  /* setting all margins to zero removes all browser added default margins */
+
   h1,
   h2,
   h3,
@@ -239,7 +224,6 @@
 
   
   
-  /* then can set the margin & paddings for any element */
   header {
     padding-top: 30px;
     padding-bottom: 60px;
@@ -313,6 +297,10 @@
   
   #contact h3 {
     margin-bottom: 60px;
+  } 
+
+  #contact a {
+    font-size: 1.25rem;
   }
   
   .contact-info {
@@ -520,14 +508,7 @@
     display: none !important;
   }
   
-  /*
-   * Hide only visually, but have it available for screen readers:
-   * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-   *
-   * 1. For long content, line feeds are not interpreted as spaces and small width
-   *    causes content to wrap 1 word per line:
-   *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-   */
+
   
   .sr-only {
     border: 0;
@@ -542,11 +523,7 @@
     /* 1 */
   }
   
-  /*
-   * Extends the .sr-only class to allow the element
-   * to be focusable when navigated to via the keyboard:
-   * https://www.drupal.org/node/897638
-   */
+
   
   .sr-only.focusable:active,
   .sr-only.focusable:focus {
@@ -559,25 +536,12 @@
     width: auto;
   }
   
-  /*
-   * Hide visually and from screen readers, but maintain layout
-   */
   
   .invisible {
     visibility: hidden;
   }
   
-  /*
-   * Clearfix: contain floats
-   *
-   * For modern browsers
-   * 1. The space content is one way to avoid an Opera bug when the
-   *    `contenteditable` attribute is included anywhere else in the document.
-   *    Otherwise it causes space to appear at the top and bottom of elements
-   *    that receive the `clearfix` class.
-   * 2. The use of `table` rather than `block` is only necessary if using
-   *    `:before` to contain the top-margins of child elements.
-   */
+
   
   .clearfix::before,
   .clearfix::after {
@@ -589,11 +553,7 @@
     clear: both;
   }
   
-  /* ==========================================================================
-     EXAMPLE Media Queries for Responsive Design.
-     These examples override the primary ('mobile first') styles.
-     Modify as content requires.
-     ========================================================================== */
+
   @media only screen and (min-width:768px) {
     /*Tablet styles here*/
   
@@ -715,7 +675,7 @@
     }
   
     header nav {
-      /* keep if using hamburger menu */
+    
       display: flex;
       justify-content: center;
       width: 100%;
@@ -723,7 +683,7 @@
     }
   
     header nav ul {
-      /* keep if using hamburger menu */
+      
       display: flex;
       justify-content: space-between;
       width: 80%;
@@ -1134,3 +1094,4 @@
     }
   }
   
+
